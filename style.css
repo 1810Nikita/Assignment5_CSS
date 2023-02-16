@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;
+    background-color:black;
+    padding: 0.3rem;
+    padding-bottom: 0.8rem;
+}
+
+.logo{
+    size: 1.5rem;
+    color: white;
+    margin-left: 5rem;
+    margin-right: 1.1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.navbar ul{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar ul li{ 
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+
+}
+
+.navbar ul li a{
+    color: white;
+    display: block;
+    padding: 0.2rem 1.2rem;
+    border-radius: 0.3;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/* main containt of page */
+/*container1*/
+.container1{
+    padding: 2.5rem;
+    padding-left:2.5rem ;
+    padding-right: 2.5rem ;
+    background-color: #ddf0ff;
+}
+
+.main-wrapper1{
+    display: flex;
+    
+}
+
+/*Hover property of image*/
+img{
+    max-width: 100%;
+    display: block;
+    border: 1px solid black;
+}
+img{
+    cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+img:hover{
+     box-shadow: 0.8rem 0.8rem 0.3rem #515151;
+     border: none;
+}
+
+
+
+.inner-text1{
+    padding: 3rem;
+    text-align: left;
+}
+
+/* main containt of page */
+/*container1*/
+.container2{
+    padding: 2.5rem;
+    background-color: #68edb6;
+}
+
+.main-wrapper2{
+    display: flex;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+
+.inner-text2{
+    padding: 2.5rem;
+    text-align: left;
+
+}
+
+
+button{
+  border: none;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.4rem 0.3rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  transition: transform .2s;
+}
+
+.btn1{
+    background-color: #1095ff;
+}
+
+
+.btn1 .fa-angle-double-right {
+    position: absolute;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.btn1:hover .fa-angle-double-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.btn2{
+    background-color: #019558;
+}
+
+
+
+.btn2 .fa-angle-double-right {
+    position: absolute;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.btn2:hover .fa-angle-double-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* Services section  */
+
+
+.services{
+    display: flex;
+    padding: 5%;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+}
+
+.box { 
+    border: 1px solid black;
+    padding: 1.5rem;
+    margin: 0.3rem ;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+/*Music section styling*/
+.fa-music{
+    font-size: 1.5rem;
+    color: #ff4cf5;
+    border : 2px solid #ff4cf5;
+    padding: 1.2rem;
+    border-radius: 50%;/*Here put border radius 50% for circular border*/
+    margin-bottom: 0.6rem;
+}
+
+/*Downloads section styling*/
+.fa-download{
+    font-size: 1.5rem;
+    color: #009f7b;
+    border : 2px solid #009f7b;
+    padding: 1.2rem;
+    border-radius: 50%;/*Here put border radius 50% for circular border*/
+    margin-bottom: 0.6rem;
+}
+
+/*Camera section styling*/
+.fa-camera{
+    font-size: 1.5rem;
+    color: #ffc31b ;
+    border : 2px solid #ffc31b;
+    padding: 1.2rem;
+    border-radius: 50%;/*Here put border radius 50% for circular border*/
+    margin-bottom: 0.6rem;
+}
+
+/*connect section styling*/
+.fa-wifi{
+    font-size: 1.5rem;
+    color: #4c8aff;
+    border : 2px solid #4c8aff;
+    padding: 1.2rem;
+    border-radius: 50%;/*Here put border radius 50% for circular border*/
+    margin-bottom: 0.6rem;
+}
+
+/*location section styling*/
+.fa-map-marker-alt{
+    font-size: 1.5rem;
+    color: #515151;
+    border : 2px solid #515151;
+    padding: 1.2rem;
+    border-radius: 50%;/*Here put border radius 50% for circular border*/
+    margin-bottom: 0.6rem;
+}
+
+/*features section*/
+
+.features{
+    display: flex;
+}
+
+ .features{ 
+    padding-left: 1.6rem;
+    padding-top: 1.8rem;
+    background: #515151;
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.icon{
+    text-align: left;
+    margin-left: 3.5rem;
+    margin-right: 6rem;
+}
+
+.footer-items{
+    list-style: none;
+    margin: 5rem 6.2rem;
+    margin-top: 0.8rem;
+    
+}
+.footer-items li{
+    color: grey;
+    
+}
+.footer-items li:hover{
+    color: white;
+}
+
+/*Animation for music*/
+#Music {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+
+#Music:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+    background-color: #ff4cf5;
+    color: white;
+    border: none;
+}
+
+#Music:hover .fa-music{
+    background-color: white;
+    transition: 0.9s;
+    transform: rotateX(360deg);
+}
+
+/*Animation for download*/
+#download {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#download:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+    background-color: #009f7b;
+    color: white;
+    border: none;
+}
+
+#download:hover .fa-download{
+    background-color: white;
+    transition: 0.9s;
+    transform: rotateX(360deg);
+}
+
+/*Animation for Ptcture*/
+#camera {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#camera:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+    background-color: #ffc31b;
+    color: white;
+    border: none;
+}
+
+#camera:hover .fa-camera{
+    background-color: white;
+    transition: 0.9s;
+    transform: rotateX(360deg);
+}
+
+/*Animation for wifi*/
+#wifi {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#wifi:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+    background-color: #4c8aff;
+    color: white;
+    border: none;
+}
+
+#wifi:hover .fa-wifi{
+    background-color: white;
+    transition: 0.9s;
+    transform: rotateX(360deg);
+}
+
+/*Animation for location*/
+#map {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#map:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.05); 
+    background-color: #515151;
+    color: white;
+    border: none;
+}
+
+#map:hover .fa-map-marker-alt{
+    background-color: white;
+    transition: 0.9s;
+    transform: rotateX(360deg);
+}
+
+@media screen and (max-width:400px){
+    nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+
+	}
+    nav ul li{
+        display: block;
+        margin: 3rem 0;
+        line-height: 2rem;
+    }
+
+    nav ul li a{
+            font-size: 1rem;
+            padding: 0px 7px;
+            padding-bottom: 8px;
+
+        }
+
+	
+}
+
+@media screen and (max-width: 600px) {
+    .services {
+      flex-direction: column;
+    }
+    .main-wrapper1{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .main-wrapper2{
+        flex-direction: column;
+    }
+    .features{
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+  }
+
+/*nav bar on responsive Its not complete*/
+#ham-menu {
+    display: none;
+}
+nav ul.active {
+    left: 0;
+}
+@media only screen and (max-width: 991px) {
+    html {
+      font-size: 56.25%;
+    }
+    header {
+      padding: 2.2rem 5rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    html {
+      font-size: 50%;
+    }
+    #ham-menu {
+      display: block;
+      color: #ffffff;
+    }
+    nav .logo,
+    #ham-menu {
+      font-size: 3.2rem;
+    }
+    nav ul {
+      background-color: black;
+      position: fixed;
+      left: -100vw;
+      top: 73.6px;
+      width: 100vw;
+      height: calc(100vh - 73.6px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transition: 1s;
+      gap: 0;
+    }
+}
+  @media only screen and (max-width: 575px) {
+    html {
+      font-size: 46.87%;
+    }
+    header {
+      padding: 2rem 3rem;
+    }
+    nav ul {
+      top: 65.18px;
+      height: calc(100vh - 65.18px);
+    }
+}
